@@ -649,7 +649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerBehaviour
   dodgeSpeed: 5
-  rollSpeed: 5
+  rollSpeed: 0.05
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
