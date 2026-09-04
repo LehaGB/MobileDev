@@ -1,16 +1,19 @@
 using UnityEngine;
 
+/// <summary>
+/// Настроить камеру, чтобы следовать за целью и смотреть на нее. 
+/// </summary>
 public class CameraBehaviour : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [Tooltip("На какой объект должна смотреть камера")]
+    public Transform target;
 
-    // Update is called once per frame
-    void Update()
+    [Tooltip("Какое смещение будет у камеры относительно цели")]
+    public Vector3 offset = new Vector3(0, 3, -6);
+
+    private void Update()
     {
-        
+        transform.position = target.position + offset;
+        transform.LookAt(target);
     }
 }
