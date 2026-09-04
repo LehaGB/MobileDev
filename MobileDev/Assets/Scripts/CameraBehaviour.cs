@@ -13,7 +13,10 @@ public class CameraBehaviour : MonoBehaviour
 
     private void Update()
     {
-        transform.position = target.position + offset;
-        transform.LookAt(target);
+        if(target != null)
+        {
+            transform.position = target.position + offset;
+            transform.LookAt(target);
+        }
     }
 }
