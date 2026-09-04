@@ -1,7 +1,11 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class PlayerBehaviour : MonoBehaviour
 {
+    /// <summary>
+    /// Ссылка на компонент Rigidbody
+    /// </summary>
     private Rigidbody rb;
 
     [Tooltip("Как быстро мяч движется влево/вправо")]
