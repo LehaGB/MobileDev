@@ -1,5 +1,10 @@
 using UnityEngine;
 
+
+/// <summary>
+/// Ответственен за автоматическое перемещение игрока и
+/// получение ввода.
+/// </summary>
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerBehaviour : MonoBehaviour
 {
@@ -11,13 +16,17 @@ public class PlayerBehaviour : MonoBehaviour
     [Tooltip("Как быстро мяч движется влево/вправо")]
     [Range(0, 10)]
     public float dodgeSpeed = 5f;
+
     [Tooltip("Как быстро мяч движется вперед автоматически")]
     [Range(0, 10)]
     public float rollSpeed = 5f;
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
+
 
     /// <summary>
     /// FixedUpdate — это отличное место для размещения физики
