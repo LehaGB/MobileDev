@@ -19,7 +19,11 @@ public class PlayerBehaviour : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    void Update()
+    /// <summary>
+    /// FixedUpdate — это отличное место для размещения физики
+    /// расчетов, происходящих в течение определенного времени.
+    /// </summary>
+    void FixedUpdate()
     {
         var horizontalSpeed = Input.GetAxis("Horizontal") * dodgeSpeed;
 
