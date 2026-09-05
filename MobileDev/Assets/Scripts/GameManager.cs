@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
 
         //  Определите, где и под каким углом мы
         //  должны создать следующий элемент
-        var nextTile = newTile.Find("NextSpawPoint");
+        var nextTile = newTile.Find("NextSpawnPoint");
         nextTileLocation = nextTile.position;
         nextTileRotation = nextTile.rotation;
     }
