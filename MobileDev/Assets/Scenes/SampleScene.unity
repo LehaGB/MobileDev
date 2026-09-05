@@ -551,8 +551,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7896c34c7c239e4a9ada5c1fb329092, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerBehaviour
-  dodgeSpeed: 0.55
-  rollSpeed: 0.15
+  dodgeSpeed: 1.91
+  rollSpeed: 2.01
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0

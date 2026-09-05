@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
     /// Создаст тайл в определенном место и
     /// настроит следующую позицию
     /// </summary>
-    private void SpawnNextTile()
+    public void SpawnNextTile()
     {
         var newTile = Instantiate(tile, nextTileLocation, nextTileRotation);
 

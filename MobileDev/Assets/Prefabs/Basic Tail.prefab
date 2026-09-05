@@ -159,7 +159,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -287,6 +287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6311616980776997609}
   - component: {fileID: 5153994635221963384}
+  - component: {fileID: 2661131968522151548}
   m_Layer: 0
   m_Name: TheEnd
   m_TagString: Untagged
@@ -330,6 +331,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2661131968522151548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5586009029365812043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7860e5b796127ab418d4ea3435e3cac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TheEndBehaviour
 --- !u!1 &5874388124196008318
 GameObject:
   m_ObjectHideFlags: 0
