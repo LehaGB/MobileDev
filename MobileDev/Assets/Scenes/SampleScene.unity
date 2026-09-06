@@ -605,10 +605,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basic Tail
       objectReference: {fileID: 0}
-    - target: {fileID: 8803983258185711342, guid: eb65ee731c03c45428de2f12c1362de4, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
