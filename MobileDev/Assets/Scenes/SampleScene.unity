@@ -300,7 +300,7 @@ Light:
   serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -309,7 +309,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.5
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -693,7 +693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   tile: {fileID: 6119748786968838036, guid: eb65ee731c03c45428de2f12c1362de4, type: 3}
-  obstacle: {fileID: 0}
+  obstacle: {fileID: 2052686602083359290, guid: d0f7448b92fe1eb48b9dd18d14c7ed11, type: 3}
   startPoint: {x: 0, y: 0, z: -5}
   initSpawnNum: 10
   initNoObstacle: 4
