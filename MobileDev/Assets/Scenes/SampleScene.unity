@@ -605,6 +605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basic Tail
       objectReference: {fileID: 0}
+    - target: {fileID: 8803983258185711342, guid: eb65ee731c03c45428de2f12c1362de4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -689,8 +693,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   tile: {fileID: 6119748786968838036, guid: eb65ee731c03c45428de2f12c1362de4, type: 3}
+  obstacle: {fileID: 0}
   startPoint: {x: 0, y: 0, z: -5}
   initSpawnNum: 10
+  initNoObstacle: 4
 --- !u!4 &2105114451
 Transform:
   m_ObjectHideFlags: 0
