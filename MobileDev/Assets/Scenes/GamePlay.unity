@@ -506,7 +506,7 @@ Transform:
   m_GameObject: {fileID: 614492820}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -4}
+  m_LocalPosition: {x: 0, y: 1, z: -8.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -538,7 +538,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &614492826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -551,8 +551,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7896c34c7c239e4a9ada5c1fb329092, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerBehaviour
-  dodgeSpeed: 1.91
-  rollSpeed: 2.01
+  dodgeSpeed: 5.83
+  rollSpeed: 0.25
 --- !u!1001 &671115104
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,0 +1,84 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void CameraBehaviour_Update_mFC74F31EB689EE0AC15D0259CA8FB379ABDF5A85 (void);
+extern void CameraBehaviour__ctor_m8DC85B81BA71DC69E1CF387D42D4AC315DCEDB5F (void);
+extern void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (void);
+extern void GameManager_SpawnNextTile_m976BC7247B95CCBC10AC5305CD307B4680DA8290 (void);
+extern void GameManager_SpawnObstacle_mF017DB45609C0DB83EDF7C0DAD4E2C00B5481752 (void);
+extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
+extern void ObstacleBehaviour_OnCollisionEnter_m6FC2805E1DFB0A2E87B66CB153EBBFA28A3A0866 (void);
+extern void ObstacleBehaviour_ResetGame_m77056E8DD7D72C3B20EAF946FC202B330D02B80C (void);
+extern void ObstacleBehaviour__ctor_m0C961646CA8C3030AB1F164540525A10DCB30E65 (void);
+extern void PlayerBehaviour_Start_mDE9C656A73EE807274C8D95E5822DF5B1700F4A4 (void);
+extern void PlayerBehaviour_FixedUpdate_m60007B9A65529788A4E45BE4EE6AA1E1D5354677 (void);
+extern void PlayerBehaviour__ctor_m90D2257DB5FDA7F58DBC521A6DB0296E49E981A9 (void);
+extern void TheEndBehaviour_OnTriggerEnter_m2B81A8EDED33A6BA4602B380A2DDD160F0EF5589 (void);
+extern void TheEndBehaviour__ctor_m6E9398967D1B446A634942B934E1C417EF4E892A (void);
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+static Il2CppMethodPointer s_methodPointers[16] = 
+{
+	CameraBehaviour_Update_mFC74F31EB689EE0AC15D0259CA8FB379ABDF5A85,
+	CameraBehaviour__ctor_m8DC85B81BA71DC69E1CF387D42D4AC315DCEDB5F,
+	GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2,
+	GameManager_SpawnNextTile_m976BC7247B95CCBC10AC5305CD307B4680DA8290,
+	GameManager_SpawnObstacle_mF017DB45609C0DB83EDF7C0DAD4E2C00B5481752,
+	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
+	ObstacleBehaviour_OnCollisionEnter_m6FC2805E1DFB0A2E87B66CB153EBBFA28A3A0866,
+	ObstacleBehaviour_ResetGame_m77056E8DD7D72C3B20EAF946FC202B330D02B80C,
+	ObstacleBehaviour__ctor_m0C961646CA8C3030AB1F164540525A10DCB30E65,
+	PlayerBehaviour_Start_mDE9C656A73EE807274C8D95E5822DF5B1700F4A4,
+	PlayerBehaviour_FixedUpdate_m60007B9A65529788A4E45BE4EE6AA1E1D5354677,
+	PlayerBehaviour__ctor_m90D2257DB5FDA7F58DBC521A6DB0296E49E981A9,
+	TheEndBehaviour_OnTriggerEnter_m2B81A8EDED33A6BA4602B380A2DDD160F0EF5589,
+	TheEndBehaviour__ctor_m6E9398967D1B446A634942B934E1C417EF4E892A,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+};
+static const int32_t s_InvokerIndices[16] = 
+{
+	9850,
+	9850,
+	9850,
+	7249,
+	7218,
+	9850,
+	7218,
+	9850,
+	9850,
+	9850,
+	9850,
+	9850,
+	7218,
+	9850,
+	9850,
+	9850,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	16,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

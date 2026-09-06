@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < initSpawnNum; ++i)
         {
-            SpawnNextTile(i <= initNoObstacle);
+            SpawnNextTile(i >= initNoObstacle);
         }
     }
 
